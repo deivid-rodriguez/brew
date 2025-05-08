@@ -22,6 +22,13 @@ updates:
       interval: daily
     allow:
       - dependency-type: all
+    groups:
+      rspec:
+        patterns:
+          - "rspec*"
+      sorbet:
+        patterns:
+          - "sorbet*"
     open-pull-requests-limit: 10
 
   - package-ecosystem: npm
